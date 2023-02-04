@@ -1,0 +1,28 @@
+/*
+ *
+ * mmm-youtube-video-list
+ *
+ * 
+ * MIT Licensed.
+ *
+ * Custom here your css module
+ *
+ */
+
+ .mmm-youtube-video-list .video {
+   display: flex;
+ }
+
+ .mmm-youtube-video-list .title {
+   flex: 1;
+   text-align: left;
+   white-space: nowrap;
+   text-overflow: ellipsis;
+   overflow: hidden;
+}
+ 
+ .mmm-youtube-video-list .pubDate {
+   text-align: right;
+   white-space: nowrap;
+   margin-left: 2rem;
+ }
